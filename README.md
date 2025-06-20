@@ -1,4 +1,3 @@
-# WEDE5020_POE-ST104714171 
 ORGANISATION OVERVIEW
 
 NAME: FRAGRANCE WORLD PERFUMES
@@ -71,6 +70,9 @@ TECHNICAL REQUIREMENTS
 	HTML:  HTML in full stands for Hypertext Markup Language, an HTML is the standard markup language used to create and design web pages. (Chris, 2025)
  
 	CSS: CSS in full stands for Cascading Style Sheets, CSS is used to style and visually layout the content on a web page
+
+
+	JavaScript: JavaScript is a high level, interpreted programming language that is a core technology of the world wide web, alongside HTML and CSS. It is primarily known as the scripting language for web pages, enabling dynamic and interactive content. 
  
 (MESNSES, 2017)
 
@@ -80,43 +82,6 @@ BUDGET
 	Developing a basic website with few pages and basic features will cost about $1 000/R18 300. (Chaturvedi, 2022)
 	Hosting price – The average hosting price ranges from R90 – R439 per month. (S, 2025)
 	Maintaining this website will cost R500 – R2500 monthly or R6 000 - R30 000 monthly. (Anon., 2025) 
-References
-Anon., 2024. [Online] 
-Available at: https://www.geeksforgeeks.org/design-an-about-us-page-using-html-and-css/
-[Accessed 30 april 2025].
-Anon., 2024. razorpay.com. [Online] 
-Available at: https://razorpay.com/blog/what-is-online-shopping-cart/#:~:text=An%20e-commerce%20online%20shopping%20cart%20is%20a%20digital,to%20checkout%20and%20accept%20payments%20when%20you%E2%80%99re%20ready.
-[Accessed 1 May 2025].
-Anon., 2024. www.freecodecamp.org. [Online] 
-Available at: https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/
-[Accessed 2 May 2025].
-Anon., 2025. webluno.co.za. [Online] 
-Available at: https://webluno.co.za/cost-of-website-maintenance/
-[Accessed 3 may 2025].
-Blomkvist, M., 2021. [Online] 
-Available at: https://www.pexels.com/photo/person-holding-white-ipad-on-brown-wooden-table-6476589/
-Chaturvedi, S., 2022. www.arkasoftwares.com. [Online] 
-Available at: https://www.arkasoftwares.com/blog/website-development-cost/#:~:text=Let%E2%80%99s%20start%20with%20the%20possible%20cost%20estimation%20to,functionalities%20%26%20tech%20integrations%20%E2%80%93%20%2450%2C000%20to%20%24150%2C000.
-[Accessed 3 may 2025].
-Chris, K., 2025. www.freecodecamp.org. [Online] 
-Available at: httpsc://www.freecodecamp.org/news/what-is-html-definition-and-meaning/
-[Accessed 3 May 2025].
-Keenan, M., 2025. www.shopify.com. [Online] 
-Available at: https://www.shopify.com/blog/product-page
-[Accessed 30 April 2025].
-MESNSES, D., 2017. PHOTOS. [Online] 
-Available at: https://www.pexels.com/photo/photo-of-turned-on-laptop-computer-943096/
-[Accessed 08 APRIL 2025].
-Powell, T. A., 2023. en.wikipedia.org. [Online] 
-Available at: https://en.wikipedia.org/wiki/Contact_page#cite_note-powell2002-1
-[Accessed 30 april 2025].
-PRODUCTION, M., 2021. [Online] 
-Available at: https://www.pexels.com/photo/person-holding-clear-glass-bottle-8450233/
-S, A., 2025. hostafrica.co.za. [Online] 
-Available at: https://hostafrica.co.za/blog/hosting/how-much-is-it-to-host-a-website/
-[Accessed 3 may 2025].
-subhadipjanacse24, 2024. geeksforgeeks. [Online] 
-Available at: https://www.geeksforgeeks.org/what-is-a-home-page/
-[Accessed 30 april 2025].
+
 
 
