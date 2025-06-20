@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Shopping Cart</title>
+    <title>Cart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="script/script.js"></script> 
 </head>
-<body>
-     <!-- This is the navigation bar that will direct you to different pages of the website -->
-    <ul>
+
+<body class="cart-page"> <ul>
         <li><a href="index.html"> Home </a></li>
         <li><a href="about.html"> About </a></li>
-        <li><a href="contact.html"> Contact </a></li>
+        <li><a href="contact.html"> Contact </a> </li>
         <li><a href="products.html"> Products </a></li>
-        <li><a href="#"> Cart </a></li>
-    </ul> 
- 
-    <div class="cart-container">
-        <h1 class="cart-title">YOUR SHOPPING CART</h1>
+        <li><a href="Cart.html"> Cart</a></li>
+    </ul>
 
-        <!--Your cart is currently empty message-->
-        <div id="empty-cart-message">Your cart is currently empty.</div>
+    <div class="cart-container">
+        <h1 class="cart-title">Your Shopping Cart</h1>
+        
+        <div id="cartItemsContainer" class="cart-items-container">
+            </div>
+
+        <p id="empty-cart-message">Your cart is empty. Start shopping now!</p>
+
+        <div class="cart-summary">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">R0.00</span>
+            </div>
+            <div class="cart-actions">
+                <button id="clearCartButton" class="clear-cart-button">Clear Cart</button>
+                <button id="checkoutButton" class="checkout-button">Proceed to Checkout</button>
+            </div>
         </div>
- <!-- Footer -->
+    </div>
+
     <footer>
         <center><p>FRAGRANCE WORLD PERFUMES &copy; 2025 all rights reserved</p></center>
     </footer>

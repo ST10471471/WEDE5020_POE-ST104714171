@@ -2,121 +2,123 @@
 <html>
 <head>
     <title>Products:Fragrance World</title>
-    <!--CSS link-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="script/script.js"></script>
 </head>
 <body>
     <div class="products-container">
         <h1 class="products-page-title">Shop Our Perfumes</h1>
-        <div class="products-grid">
-            </div>
-            <!-- This is the navigation bar that will direct you to different pages of the website -->
-    <ul>
-        <li><a href="index.html"> Home </a></li>
-        <li><a href="about.html"> About </a></li>
-        <li><a href="contact.html"> Contact </a> </li>
-        <li><a href="#"> Products </a></li>
-        <li><a href="Cart.html"> Cart</a></li>
-    </ul>
- <!-- List of the product's names and their prices -->
-    <div class="products-container">
-        <div class="products-grid">
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Bombshell Elixir.jpg" alt="Bombshell Elixir">
-                </div>
-                <h2 class="product-title">Bombshell Elixir</h2>
-                <p class="product-price">R500</p>
-                <!-- Add to cart button -->
-                <button class="add-to-cart-button">Add to Cart</button>
-            </div>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="about.html"> About </a></li>
+            <li><a href="contact.html"> Contact </a> </li>
+            <li><a href="#"> Products </a></li>
+            <li><a href="Cart.html"> Cart</a></li>
+        </ul>
 
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Chanel Paris- Gabrielle.jpg" alt="Chanel Paris - Gabrielle">
-                </div>
-                <h2 class="product-title">Chanel Paris - Gabrielle</h2>
-                <p class="product-price">R650</p>
-                
-                <button class="add-to-cart-button">Add to Cart</button>
+        <div class="search-container">
+            <div class="search-input-wrapper">
+                <input type="text" id="searchInput" placeholder="Search for perfumes...">
+                <span id="clearSearchButton" class="clear-search-button">&times;</span>
             </div>
+            <button id="searchButton">Search</button>
+        </div>
 
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Chanel Paris-N°5.jpg" alt="Chanel Paris - Chanel Paris - N°5">
+        <div class="products-container">
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Bombshell Elixir.jpg" alt="Bombshell Elixir" class="product-thumbnail" data-large-src="img/Bombshell Elixir.jpg">
+                    </div>
+                    <h2 class="product-title">Bombshell Elixir</h2>
+                    <p class="product-price">R500</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <h2 class="product-title">Chanel Paris - N°5</h2>
-                <p class="product-price">R800</p>
-                
-                <button class="add-to-cart-button">Add to Cart</button>
-            </div>
 
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Coach-Floral EDP.jpg" alt="Coach - Floral EDP">
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Chanel Paris- Gabrielle.jpg" alt="Chanel Paris - Gabrielle" class="product-thumbnail" data-large-src="img/Chanel Paris- Gabrielle.jpg">
+                    </div>
+                    <h2 class="product-title">Chanel Paris - Gabrielle</h2>
+                    <p class="product-price">R650</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <h2 class="product-title">Coach - Floral EDP</h2>
-                <p class="product-price">R600</p>
-                
-                <button class="add-to-cart-button">Add to Cart</button>
-            </div>
 
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Dior-Sauvage.jpg" alt="Dior - Sauvage">
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Chanel Paris-N°5.jpg" alt="Chanel Paris - Chanel Paris - N°5" class="product-thumbnail" data-large-src="img/Chanel Paris-N°5.jpg">
+                    </div>
+                    <h2 class="product-title">Chanel Paris - N°5</h2>
+                    <p class="product-price">R800</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <h2 class="product-title">Dior - Sauvage</h2>
-                <p class="product-price">R1200</p>
-                
-                <button class="add-to-cart-button">Add to Cart</button>
-            </div>
 
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Dolce and Gabbana-The one.jpg" alt="Dolce and Gabanna - The One">
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Coach-Floral EDP.jpg" alt="Coach - Floral EDP" class="product-thumbnail" data-large-src="img/Coach-Floral EDP.jpg">
+                    </div>
+                    <h2 class="product-title">Coach - Floral EDP</h2>
+                    <p class="product-price">R600</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <h2 class="product-title">Dolce and Gabanna - The One</h2>
-                <p class="product-price">R1350</p>
-                
-                <button class="add-to-cart-button">Add to Cart</button>
-            </div>
 
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Farmasi-Hera.jpg" alt="Farmasi - Hera">
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Dior-Sauvage.jpg" alt="Dior - Sauvage" class="product-thumbnail" data-large-src="img/Dior-Sauvage.jpg">
+                    </div>
+                    <h2 class="product-title">Dior - Sauvage</h2>
+                    <p class="product-price">R1200</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <h2 class="product-title">Farmasi - Hera</h2>
-                <p class="product-price">R900</p>
-                
-                <button class="add-to-cart-button">Add to Cart</button>
-            </div>
 
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Versace-Eros.jpg" alt="Versace - Eros R1500">
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Dolce and Gabbana-The one.jpg" alt="Dolce and Gabanna - The One" class="product-thumbnail" data-large-src="img/Dolce and Gabbana-The one.jpg">
+                    </div>
+                    <h2 class="product-title">Dolce and Gabanna - The One</h2>
+                    <p class="product-price">R1350</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <h2 class="product-title">Versace - Eros</h2>
-                <p class="product-price">R1500</p>
-                
-                <button class="add-to-cart-button">Add to Cart</button>
-            </div>
 
-            <div class="product-card">
-                <div class="product-image-container">
-                    <img src="img/Yves Saint Laurent-Y Man Eau de Parfum.jpg" alt="Yves Saint Laurent - Y Man Eau de Parfum">
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Farmasi-Hera.jpg" alt="Farmasi - Hera" class="product-thumbnail" data-large-src="img/Farmasi-Hera.jpg">
+                    </div>
+                    <h2 class="product-title">Farmasi - Hera</h2>
+                    <p class="product-price">R900</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
                 </div>
-                <h2 class="product-title">Yves Saint Laurent - Y Man Eau de Parfum</h2>
-                <p class="product-price">R1800</p>
-                
-                <button class="add-to-cart-button">Add to Cart</button>
-            </div>
 
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Versace-Eros.jpg" alt="Versace - Eros R1500" class="product-thumbnail" data-large-src="img/Versace-Eros.jpg">
+                    </div>
+                    <h2 class="product-title">Versace - Eros</h2>
+                    <p class="product-price">R1500</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image-container">
+                        <img src="img/Yves Saint Laurent-Man Eau de Parfum.jpg" alt="Yves Saint Laurent-Man Eau de Parfum" class="product-thumbnail" data-large-src="img/Yves Saint Laurent-Man Eau de Parfum.jpg">
+                    </div>
+                    <h2 class="product-title">Yves Saint Laurent -  Man Eau de Parfum</h2>
+                    <p class="product-price">R1800</p>
+                    <button class="add-to-cart-button">Add to Cart</button>
+                </div>
+            </div>
         </div>
     </div>
-<!-- Footer -->
     <footer>
         <center><p>FRAGRANCE WORLD PERFUMES &copy; 2025 all rights reserved</p></center>
     </footer>
+
+    <div id="imageModal" class="modal">
+        <span class="close-button">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
 
 </body>
 </html>
